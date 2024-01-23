@@ -148,12 +148,56 @@
 // }
 
 //!10
-let users = [
-  {username: 'giorgi', status: false},
-  {username: 'levani', status: false},
-  {username: 'anna', status: true}
-]
-for (let x = 0 ; x < users.length ; x++ ){
-  const element = users[x];
-  if (element === "anna")
-}
+// let users = [
+//   {username: 'giorgi', status: false},
+//   {username: 'levani', status: false},
+//   {username: 'anna', status: true}
+// ]
+// for (let x = 0 ; x < users.length ; x++ ){
+//   const element = users[x];
+//  if (element.status === true){
+//   console.log(element.username);
+//  }
+// }
+
+//!
+// for (let y of users){
+//   if (y.status === true){
+//     console.log(y.username);
+//   }
+// }
+
+//! 11
+// ვერ გავიგე და ლექციის და ლექციაზე ეს საკითხი რომ გამიხსნა
+// let array7 = [32, 14, 10, "hello", null, "40", 50];
+// for (let x = 0 ; x < array7.length ; x++){
+//   const y = array7[x];
+//   if (y%5=== 0 && y !=null && y!=-0){
+//     console.log(y)
+//   }
+// }
+
+//! 12
+// let array8 = [
+//   [2, -3, 5, 11],
+//   [1, -35, -11],
+//   [12, -36, -24],
+// ];
+// for (let x = 0; x < array8.length; x++) {
+//   const y = array8[x];
+//   for (let z =0 ; z < y.length ; z ++){
+//     const b = y[z];
+//     if (b > 0){
+//       console.log(b);
+//     }
+//   }
+// }
+//!
+
+// for (let z of array8) {
+//   for (const x of z) {
+//     if (x > 0){
+//       console.log(x);
+//     }  
+//   }
+// }
